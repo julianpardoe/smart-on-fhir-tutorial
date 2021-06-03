@@ -84,7 +84,7 @@
       ldl: {value: ''},
       hdl: {value: ''},
     };
-  }
+  } 
 
   function getBloodPressureValue(BPObservations, typeOfPressure) {
     var formattedBPObservations = [];
