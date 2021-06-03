@@ -62,6 +62,11 @@
           var allergyTable = "<table>";
           var allergyLen = allergies.length;
           for (var i=0,len=allergyLen;i<len;i++)
+              var reactionStr = "";
+              if(allergies[i].reaction != null)
+              {
+                alert(allergies[i].substance.text);
+              }  
               {
                  allergyTable += "<tr><td>"+allergies[i].substance.text+"</td></tr>";
               }
