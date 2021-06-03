@@ -61,7 +61,7 @@
           var ldl = byCodes('2089-1');
           var allergyTable = "<table>";
           var allergyLen = allergies.length;
-          for (var i=0,len=allergyLen;i<len;++)
+          for (var i=0,len=allergyLen;i<len;i++)
               {
                  allergyTable += "<tr><td>"+allergies[i].substance.text+"</td></tr>";
               }
