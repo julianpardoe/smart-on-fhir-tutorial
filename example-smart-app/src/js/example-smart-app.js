@@ -20,7 +20,7 @@
                               'http://loinc.org|2089-1', 'http://loinc.org|55284-4']
                       },*/
                       date: 'gt2020-01-01',
-                      category: 'nital-signs'
+                      category: 'vital-signs'
                     }
                   });
 
