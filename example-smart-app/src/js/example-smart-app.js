@@ -63,7 +63,7 @@
           var allergyLen = allergies.length;
           for (var i=0,len=allergyLen;i<len;++)
               {
-                 allergyTable += "<tr><td>"+allergies[i].sunstance.text+"</td></tr>";
+                 allergyTable += "<tr><td>"+allergies[i].substance.text+"</td></tr>";
               }
                if (allergyLen === 0)
                {
